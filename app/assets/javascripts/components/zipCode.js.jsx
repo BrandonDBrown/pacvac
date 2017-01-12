@@ -19,8 +19,8 @@ class Zipcode extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <input type="text" value={this.state.value} onChange={this.handleChange} placeholder='Enter your zipcode'/>
-        <input type="submit" value={this.props.value} />
+        <input className='inputBox' type="text" value={this.state.value} onChange={this.handleChange} placeholder='Enter your zipcode'/>
+        <input className='btn-primary btns btn-xl' type="submit" value={this.props.value} />
       </form>
     );
   }
@@ -34,7 +34,7 @@ function checkZipCode(zipcode) {
 
   var currentlyServed = ['1', '2', 'b']
   if(currentlyServed.includes(zipcode)) {
-    return (<Zipcode value='bitches' />);
+    window.location = "/pages/quote"
   } else {
     alert('sorry we are not in your area yet');
   }

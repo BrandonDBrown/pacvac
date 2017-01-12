@@ -3,3 +3,66 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.logo {
+  margin-top:40%;
+  margin-bottom:100px;
+}
+
+.inputBox {
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+  width:100%;
+  outline:none;
+  font-size:24px;
+}
+
+.submitBtn {
+  width:50%;
+  height:50px;
+  background-color:#3e6d91;
+  color:white;
+  font-weight:400;
+  font-size:14px;
+  font-family:sans-serif;
+  border-radius:2px;
+  border:none
+}
+
+.btn-primary {
+    border-color: #ee7637;
+    color: #fff;
+    background-color: #ee7637;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btns {
+    border: 0;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 300;
+    font-size:20px;
+}
+
+.btn-xl {
+  margin-top:75px;
+  padding: 15px 30px;
+}
