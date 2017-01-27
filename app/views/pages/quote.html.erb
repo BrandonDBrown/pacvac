@@ -1,2 +1,9 @@
-<h1>Pages#quote</h1>
-<p>Find me in app/views/pages/quote.html.erb</p>
+<div class='container'>
+  <div class='row'>
+    <div class='col-xs-4 col-xs-offset-4'>
+      <%= image_tag("logo.png", class:"logo") %>
+      <h3>Get a Quote</h3>
+      <%= react_component('QuoteForm', {value: 'Submit'}, {prerender: true}) %>
+    </div>
+  </div>
+</div>

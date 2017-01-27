@@ -5,8 +5,8 @@
 @import "bootstrap";
 
 .logo {
-  margin-top:40%;
-  margin-bottom:100px;
+  margin-top:35%;
+  margin-bottom:90px;
 }
 
 .inputBox {
@@ -14,6 +14,14 @@
   border-bottom: 1px solid #1a1a1a;
   width:100%;
   outline:none;
+  margin-bottom:10px;
+}
+
+.quoteForm {
+  font-size:16px;
+}
+
+.zipcode {
   font-size:24px;
 }
 
@@ -26,7 +34,7 @@
   font-size:14px;
   font-family:sans-serif;
   border-radius:2px;
-  border:none
+  border:none;
 }
 
 .btn-primary {
@@ -65,4 +73,33 @@
 .btn-xl {
   margin-top:75px;
   padding: 15px 30px;
+}
+
+.validator-message {
+  color:red;
+  font-size:14px;
+  margin-top:20px;
+}
+
+// Calendar css
+.date-body{
+  background-color: #3e6d91;padding-bottom: 5px;
+  width:150px;
+}
+.date-body .date-title{
+  color: white;
+}
+
+.date-body .date-content{
+  background-color: white;margin-left: 5px;margin-right: 5px;
+}
+.date-body .date-content p.dia{
+  margin: 0; font-size: 14px; font-weight: bold;
+}
+.nomargin{
+  margin: 0;
+}
+
+p.quote {
+  font-size: 25px;
 }
